@@ -8,7 +8,7 @@ private:
 public:
     haszontalanClass(int a);
     ~haszontalanClass();
-    void repr();
+    void print();
     int dbl_a;
 };
 

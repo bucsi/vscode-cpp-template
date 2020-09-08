@@ -23,7 +23,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: Minden .cpp fájl fordítása (g++)"
+            "preLaunchTask": "C++: Minden fordítása a mappában (g++)"
         }
     ]
 }

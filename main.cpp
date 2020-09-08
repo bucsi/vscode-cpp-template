@@ -6,6 +6,6 @@ int main(){
     int a = 2;
     std::cout<<"Hello world"<<endl;
     haszontalanClass h = haszontalanClass(3);
-    h.repr();
+    h.print();
     return 0;
 }

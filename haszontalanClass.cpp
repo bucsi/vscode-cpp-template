@@ -12,6 +12,6 @@ haszontalanClass::~haszontalanClass()
 {
 }
 
-void haszontalanClass::repr(){
+void haszontalanClass::print(){
     cout << "Ennek a haszontalan classnak az értáke: " << dbl_a;
 }
