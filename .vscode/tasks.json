@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "C++: Minden fordítása a mappában (g++)",
+			"command": "g++",
+			"args": [
+				"-g",
+				"${fileDirname}\\**.cpp",
+				"-o",
+				"${fileDirname}\\main.exe"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
